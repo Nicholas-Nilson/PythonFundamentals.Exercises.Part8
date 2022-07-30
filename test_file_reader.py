@@ -4,6 +4,7 @@ from io import StringIO
 import file_reader
 
 
+
 class FileReaderTest(unittest.TestCase):
 
     @patch('sys.stdout', new_callable=StringIO)
